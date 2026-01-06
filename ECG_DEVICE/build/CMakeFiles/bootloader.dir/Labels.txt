@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/CMakeFiles/bootloader
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/CMakeFiles/bootloader.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/CMakeFiles/bootloader-complete.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

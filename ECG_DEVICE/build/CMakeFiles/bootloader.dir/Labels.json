@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "G:/Project_A/Max3003/Tathuan_Project_ECG/ECG_V5/ECG_Device/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}
