@@ -59,7 +59,7 @@ const char *Tag_ECG = "Process ECG Device";
 SemaphoreHandle_t ECG_Electriocal_diagram;
 QueueHandle_t ble_queue;
 #define MaximumSample_ECG 50
-#define NumberSample_Bat 100
+#define NumberSample_Bat 500
 
 #define BLE_GAP_APPEARANCE_GENERIC_TAG 0x0200
 #define BLE_GAP_URI_PREFIX_HTTPS 0x17
@@ -78,7 +78,7 @@ uint8_t percBat = 0;
 bool Flag_Sample = false;
 float mag = 0;
 uint8_t MACMasterDungDinhDang[6];
-const char *MACMaster = "244CABF96330"; // 90380CA3B9DC 244CABF96330
+const char *MACMaster = "90380CA3B9DC"; // 90380CA3B9DC 244CABF96330
 Status_ECG_Handle ECG_Status;
 typedef struct
 {
@@ -415,12 +415,12 @@ void ECG_Handle_t(void *pvParameters)
             Max30003_Info sensor = MAX30003_getHRandRR();
             HR_Avg += sensor.heartRate;
             RR_Avg += sensor.RR;
-            static uint8_t cnt = 0;
+            static uint16_t cnt = 0;
             cnt++;
-            if (cnt >= 50)
+            if (cnt >= 500)
             {
-                FIFO.HR = (int16_t)(HR_Avg / 50.0f); // nhip tim
-                FIFO.RR = (int16_t)(RR_Avg / 50.0f);        // khoang cach giua 2 dinh song tinh ms
+                FIFO.HR = (int16_t)(HR_Avg / 500.0f); // nhip tim
+                FIFO.RR = (int16_t)(RR_Avg / 500.0f);        // khoang cach giua 2 dinh song tinh ms
                 cnt = 0;
                 HR_Avg = 0 ;
                 RR_Avg = 0 ;
@@ -488,7 +488,7 @@ void Reading_BAT(void *pvParameters)
         // printf("Phần trăm pin: %d \n", percBat);
         // #endif
         // }
-        vTaskDelay(500 / portTICK_PERIOD_MS);
+        vTaskDelay(5000 / portTICK_PERIOD_MS);
     }
 }
 void Acceleration_Handle(void *pvParameters)
